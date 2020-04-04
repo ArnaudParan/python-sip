@@ -1,0 +1,1 @@
+recursive-include src/sipgen *.c *.cpp *.h *.hpp
