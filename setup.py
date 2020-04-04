@@ -71,11 +71,11 @@ class MyBuildExt(build_ext):
 setuptools.setup(
         name='python-sip',
         version='0.1',
-        scripts=["sip"],
+        scripts=["bin/sip"],
         py_modules=["sipconfig", "sipdistutils"],
         ext_modules=[
             setuptools.Extension(
-                "bin/sip",
+                "sip",
                 [
                     "src/siplib/array.c",
                     "src/siplib/bool.cpp",
